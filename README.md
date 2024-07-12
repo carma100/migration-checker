@@ -1,8 +1,5 @@
 # Carma Migration Checker
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/carma/migration-checker.svg?style=flat-square)](https://packagist.org/packages/carma/migration-checker)
-[![Total Downloads](https://img.shields.io/packagist/dt/carma/migration-checker.svg?style=flat-square)](https://packagist.org/packages/carma/migration-checker)
-
 This package will add a new menu item "Migration checker" to the Moonshine admin panel.
 
 ## Installation
