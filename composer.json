@@ -1,0 +1,39 @@
+{
+    "version": "1.0.0",
+    "name": "carma/migration-checker",
+    "description": "This package will add into the moonshine admin panel a new menu item 'Migration checker' for checking all migrations",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "keywords": [
+        "laravel",
+        "migration-checker"
+    ],
+    "authors": [
+        {
+            "name": "Sergey Korneev",
+            "email": "skorneev@eqvantalab.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "laravel/framework": "^11.0",
+        "symfony/finder": "^7.0",
+        "moonshine/moonshine": "^2.10",
+        "spatie/laravel-permission": "*",
+        "laravel/pint": "^1.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Carma\\MigrationChecker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Carma\\MigrationChecker\\Providers\\MigrationCheckerMenuServiceProvider",
+                "Carma\\MigrationChecker\\Providers\\MigrationCheckerServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.idea
+vendor
+bootstrap/cache
+storage
+tests
+config
+auth.json
+!/composer.lock
